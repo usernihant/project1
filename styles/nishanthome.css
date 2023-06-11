@@ -1,0 +1,187 @@
+body{
+    background-color: rgb(3, 30, 3);
+}
+
+.myHeader{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+    z-index: 100%;
+}
+
+.myHeader img{
+    height: 60%;
+    width: 100%;
+}
+
+.myLogo{
+    height: 100px;
+
+    text-align: center;
+    margin: 10px;
+    float: left;
+}
+
+.myText{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: whi;
+    size: 20px;
+}
+
+.myNav{
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    size: 20px;
+    height: 100%;
+    font-weight: bold;
+    margin: 10px;
+    padding: 0rem;
+}
+
+.myData h1{
+    color: green;
+    size: 50px;
+    margin: 0.5%;
+}
+
+.myNav a{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 5px;
+    padding-top: 12%;
+}
+
+.myEducation{
+    width: 100%;
+}
+
+.quote{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 10%;
+}
+
+.imageContent{
+    background-image: url(homeImage.jpg);
+    top: 0px;
+    background-color: bisque;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+}
+
+.myContent h1{
+    font-weight: bold;
+    font-size: 25px;
+    color: Red;
+    text-align: center;
+}
+
+#Schools{
+    text-align: center;
+}
+
+.colleges{
+    width: 17%;
+    padding: 1%;
+    height: 300px;
+    float: left;
+    border: thick double goldenrod;
+    text-align: center;
+}
+
+.colleges img{
+    width: 100%;
+}
+
+.academics{
+    width: 100%;
+    border: 2px solid green;
+    text-align: center;
+}
+
+.caption-heading{
+    color: rgb(184, 98, 11);
+    size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h1{
+    size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+th{
+    height: 50px;
+    font-size: 22px;
+    color: black;
+}
+
+td{
+    height: 50px;
+    font-size: 21px;
+    color: brown;
+}
+tr{
+    background-color: gray;
+}
+
+td{
+    background-color: azure;
+}
+
+.tr-academics-previous:hover{
+    background-color: rgb(0, 200, 255);
+}
+
+.tr-academics-current:hover{
+    background-color: green;
+}
+
+.form{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form input{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.footer{
+    top: 5px;
+    background-color: dimgray;
+    height: 120px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+}
+
+.footer-text{
+    color: black;
+    font-size: 20px;
+}
+
+h2{
+    size: 30px;
+    text-align: center;
+    color: black;
+}
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+      body{margin: 0;}
+      .myContainer {display: grid;
+         grid-template-areas: 'h h h h' 'n n n n' 'm c c c' 'f f f f';}
+      #myHeader {grid-area: h; background-color: mediumseagreen; color: white;
+         padding: 18px 0; text-align: center; font-size: large;}
+      #myNavBar{grid-area: n; background-color: purple; color: whitesmoke;}
+      #myMenu {grid-area: m; margin-top: -15px;}
+      #myContent {grid-area: c; padding: 4px 12px; background-image: url(backImg.webp);}
+      #myFooter {grid-area: f; background-color: mediumseagreen; color: white;
+         padding: 18px 0; text-align: center; margin-top: -15px;}
+
+      #myHeader{display: inline;}
+      .company{padding-left: 14px; text-align: center; color: greenyellow; font-size: 35px;}
+      .search{float: right; padding-right: 14px; text-align: center;}
+      .search input{width: 80px; border-radius: 10px; padding: 4px 6px; margin-right: 8px;
+         background-color: mediumaquamarine; border: 2px solid white; text-align: center;}
+
+         p{
+            color: purple;
+            font-size: 30px;
+            text-align: center;
+         }
+
+        h2{
+            color: palevioletred;
+            text-align: center;
+            font-size: 40px;
+        }
+
+      #myNavBar ul{list-style-type: none; background-color: purple; overflow: hidden;
+         margin: 0; padding: 0;}
+      #myNavBar li{float: left;}
+      #myNavBar li a{display: block; color: white; text-decoration: none; padding: 12px;}
+      #myNavBar li a:hover{background-color: aliceblue; color: purple;}
+      #myNavBar .right{float: right;}
+
+      #myMenu ul{list-style-type: none; background-color: #ccc;
+         padding: 0; text-align: center;}
+      #myMenu li a{display: block; text-decoration: none; padding: 12px; color: brown;}
+      #myMenu li a:hover{background-color: aliceblue; color: purple;}
+   </style>
+</head>
+<body>
+
+   <div class="myContainer">
+      <div id="myHeader">
+         <div class="company">Welcome to Home Page</div>
+         <div class="search">
+            <input type="text" placeholder="search">
+            <button type="search">Search</button>
+         </div>
+      </div>
+      <div id="myNavBar">
+         <ul class="right">
+            <li><a href="nishanthome.html" target="_blank">| Home |</a></li>
+            <li><a href="home.html" target="_blank">| Skills |</a></li>
+            <!-- <li class="right"><a href="#">Prices</a></li> -->
+            <li><a href="nishant.html" target="_blank">| Contact |</a></li>
+            <li><a href="index.html" target="_blank">| About |</a></li>
+         </ul>
+      </div>
+      <div id="myMenu">
+         <ul>
+            <li><a href="index.html" target="_blank">| Academics | </a></li>
+            <li><a href="nishanthome.html" target="_blank">| My Home |</a></li>
+            <li><a href="home.html" target="_blank">| coding Languages |</a></li>
+            <li><a href="nishant.html" target="_blank">| Profile |</a></li>
+            <li><a href="reviews.html">| Review |</a></li>
+            <li><a href="loginForm.html" target="_blank">| Login</a></li>
+         </ul>
+      </div>
+      <div id="myContent">
+        <!-- <img src="myImg1.jpg" width="100%" height="700px"> -->
+         <h2>Welcome to my main home page</h2>
+         <p>Thankyou for searching me</p>
+         <p>Here you can get all the link related about me. Please click on the link whatever you want</p>
+         <p>You can directly join with me</p>
+         <p>Thankyou!</p>
+      </div>
+      <div id="myFooter">
+        Design by Nishant copyright@NUpuri
+    </div>
+   </div>
+   
+</body>
+</html>

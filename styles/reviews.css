@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+  }
+  
+  .myHeader h1{
+    text-align: center;
+    color: pink;
+  }
+  
+  form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  
+  .myHeader{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(87, 30, 30);
+    z-index: 100%;
+}
+
+.myHeader a{
+  float: right;
+  color: antiquewhite;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.footer{
+  background-color: rgb(133, 97, 97);
+  height: 40px;
+  top: 5px;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+}
+
+.footer-text{
+  color: black;
+  font-size: 15px;
+}
